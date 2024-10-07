@@ -27,13 +27,13 @@
     <header>
         <div class="wrapper">
             <div class="logo">
-                <a href="../BIT608-AS3-SkyReekie/index.php">
+                <a href="../BIT608-AS3-SkyReekie/index.html">
                     <img src="../BIT608-AS3-SkyReekie/BIT608_AS3_Images/graphic.png" alt="Logo" height="100" width="240">
                 </a>
             </div>
 
             <nav id="navbar">
-                <a href="../BIT608-AS3-SkyReekie/index.php">Home</a>
+                <a href="../BIT608-AS3-SkyReekie/index.html">Home</a>
                 <a href="../BIT608-AS3-SkyReekie/NewCustomer.php">New Customer</a>
                 <a href="../BIT608-AS3-SkyReekie/CustomerDashboard.php">Customer Dashboard</a>
                 <a href="../BIT608-AS3-SkyReekie/AdminDashboard.php">Admin Dashboard</a>
@@ -73,7 +73,7 @@
 <body>
     <h1>Create a Booking</h1>
     <!-- Links to return to homepage -->
-    <a href="../BIT608-AS3-SkyReekie/index.php" style="font-size: 20px;">[Return to Homepage]</a>
+    <a href="../BIT608-AS3-SkyReekie/index.html" style="font-size: 20px;">[Return to Homepage]</a>
     <p><br></p>
 
     <!-- Container for the booking form -->
@@ -136,7 +136,7 @@
 
             <!-- Submit button and cancel link -->
             <button type="submit">Add</button>
-            <a href="../BIT608-AS3-SkyReekie/index.php">[Cancel]</a>
+            <a href="../BIT608-AS3-SkyReekie/index.html">[Cancel]</a>
         </form>
     </div>
 

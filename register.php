@@ -19,7 +19,7 @@ if (isset($_POST['register'])) {
         $stmt->execute([$firstname, $lastname, $email, $phone, $hashedPassword]);
 
         echo "Registration successful!";
-        echo '<a href="index.php">Return to Home Page</a>';
+        echo '<a href="index.html">Return to Home Page</a>';
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
     }

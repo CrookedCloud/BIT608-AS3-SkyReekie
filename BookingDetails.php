@@ -34,13 +34,13 @@
     <header>
             <div class="wrapper">
                 <div class="logo">
-                    <a href="../BIT608-AS3-SkyReekie/index.php">
+                    <a href="../BIT608-AS3-SkyReekie/index.html">
                         <img src="../BIT608-AS3-SkyReekie/BIT608_AS3_Images/graphic.png" alt="Logo" height="100" width="240">
                     </a>
                 </div>
 
                 <nav id="navbar">
-                    <a href="../BIT608-AS3-SkyReekie/index.php">Home</a>
+                    <a href="../BIT608-AS3-SkyReekie/index.html">Home</a>
                     <a href="../BIT608-AS3-SkyReekie/NewCustomer.php">New Customer</a>
                     <a href="../BIT608-AS3-SkyReekie/CustomerDashboard.php">Customer Dashboard</a>
                     <a href="../BIT608-AS3-SkyReekie/AdminDashboard.php">Admin Dashboard</a>
@@ -60,7 +60,7 @@
     
     <!-- Links to return to bookings list and homepage -->
     <a href="../BIT608-AS3-SkyReekie/CurrentBookingsList.php" style="font-size: 20px;">[Return to bookings list]</a>
-    <a href="../BIT608-AS3-SkyReekie/index.php" style="font-size: 20px;">[Return to home page]</a>
+    <a href="../BIT608-AS3-SkyReekie/index.html" style="font-size: 20px;">[Return to home page]</a>
     <p><br></p>
 
     <?php

@@ -28,13 +28,13 @@
     <header>
         <div class="wrapper">
             <div class="logo">
-                <a href="../BIT608-AS3-SkyReekie/index.php">
+                <a href="../BIT608-AS3-SkyReekie/index.html">
                     <img src="../BIT608-AS3-SkyReekie/BIT608_AS3_Images/graphic.png" alt="Logo" height="100" width="240">
                 </a>
             </div>
 
             <nav id="navbar">
-                <a href="../BIT608-AS3-SkyReekie/index.php">Home</a>
+                <a href="../BIT608-AS3-SkyReekie/index.html">Home</a>
                 <a href="../BIT608-AS3-SkyReekie/NewCustomer.php">New Customer</a>
                 <a href="../BIT608-AS3-SkyReekie/CustomerDashboard.php">Customer Dashboard</a>
                 <a href="../BIT608-AS3-SkyReekie/AdminDashboard.php">Admin Dashboard</a>
@@ -211,7 +211,8 @@
             <!-- Submit button to update the booking -->
             <button type="submit">Update</button>
             <!-- Link to cancel and go back to bookings list -->
-            <a href="../BIT608-AS3-SkyReekie/">[Cancel]</a>
+            <a href="../BIT608-AS3-SkyReekie/index.html">[Cancel]</a>
+
         </form>
     </div>
     <hr class="hr-line">
