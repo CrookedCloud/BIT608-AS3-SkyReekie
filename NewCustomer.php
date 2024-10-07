@@ -15,7 +15,7 @@
     frame-src 'self' https://www.google.com;
     upgrade-insecure-requests;">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href='../BIT608-AS3-SkyReekie/stylesheet.css' rel='stylesheet'>
+    <link href='../stylesheet.css' rel='stylesheet'>
 </head>
 
 <!--------------------------------->
@@ -26,16 +26,16 @@
     <header>
         <div class="wrapper">
             <div class="logo">
-                <a href="../BIT608-AS3-SkyReekie/index.html">
-                    <img src="../BIT608-AS3-SkyReekie/BIT608_AS3_Images/graphic.png" alt="Logo" height="100" width="240">
+                <a href="../index.html">
+                    <img src="../BIT608_AS3_Images/graphic.png" alt="Logo" height="100" width="240">
                 </a>
             </div>
 
             <nav id="navbar">
-                <a href="../BIT608-AS3-SkyReekie/index.html">Home</a>
-                <a href="../BIT608-AS3-SkyReekie/NewCustomer.php">New Customer</a>
-                <a href="../BIT608-AS3-SkyReekie/CustomerDashboard.php">Customer Dashboard</a>
-                <a href="../BIT608-AS3-SkyReekie/AdminDashboard.php">Admin Dashboard</a>
+                <a href="../index.html">Home</a>
+                <a href="../NewCustomer.php">New Customer</a>
+                <a href="../CustomerDashboard.php">Customer Dashboard</a>
+                <a href="../AdminDashboard.php">Admin Dashboard</a>
             </nav>
             <div class="mobile-menu-icon" onclick="toggleMenu()">
                 ☰
@@ -65,12 +65,12 @@
 
         <input type="submit" name="register" value="Register">
     </form>
-    <a href="../BIT608-AS3-SkyReekie/index.html">[Return]</a></div>
+    <a href="../index.html">[Return]</a></div>
     <hr class="hr-line">
 
     <!-- Page Footer -->
 <div class="pagefooter">
-    <a href="../BIT608-AS3-SkyReekie/PrivacyPolicy.php">Privacy Policy</a>
+    <a href="../PrivacyPolicy.php">Privacy Policy</a>
 </div>
 </body>
 </html>
