@@ -120,6 +120,15 @@ ol li
     background: rgb(152, 152, 152);
 }
 
+.pagefooter a {
+    color: black;
+    text-decoration: underline;
+}
+
+.pagefooter a:hover
+{ text-decoration: none;
+    color: rgb(0, 0, 76);}
+
 /* Mobile Styles */
 @media (max-width: 600px) {
 body {
