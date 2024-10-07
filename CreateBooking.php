@@ -17,7 +17,7 @@
     frame-src 'self' https://www.google.com;
     upgrade-insecure-requests;">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href='../stylesheet.css' rel='stylesheet'>
+    <link href='stylesheet.css' rel='stylesheet'>
 </head>
 <!------------------------>
 <!--Nav Bar-->
@@ -27,16 +27,16 @@
     <header>
         <div class="wrapper">
             <div class="logo">
-                <a href="../index.html">
+                <a href="index.html">
                     <img src="../BIT608_AS3_Images/graphic.png" alt="Logo" height="100" width="240">
                 </a>
             </div>
 
             <nav id="navbar">
-                <a href="../index.html">Home</a>
-                <a href="../NewCustomer.php">New Customer</a>
-                <a href="../CustomerDashboard.php">Customer Dashboard</a>
-                <a href="../AdminDashboard.php">Admin Dashboard</a>
+                <a href="index.html">Home</a>
+                <a href="NewCustomer.php">New Customer</a>
+                <a href="CustomerDashboard.php">Customer Dashboard</a>
+                <a href="AdminDashboard.php">Admin Dashboard</a>
             </nav>
             <div class="mobile-menu-icon" onclick="toggleMenu()">
                 ☰
@@ -51,7 +51,7 @@
 
     // Check if either customer or admin is logged in
     if (!isset($_SESSION['role']) || ($_SESSION['role'] !== 'admin' && $_SESSION['role'] !== 'customer')) {
-        header("Location: ../Login.php");
+        header("Location: Login.php");
         exit();
     }?>
 
@@ -73,7 +73,7 @@
 <body>
     <h1>Create a Booking</h1>
     <!-- Links to return to homepage -->
-    <a href="../index.html" style="font-size: 20px;">[Return to Homepage]</a>
+    <a href="index.html" style="font-size: 20px;">[Return to Homepage]</a>
     <p><br></p>
 
     <!-- Container for the booking form -->
@@ -136,7 +136,7 @@
 
             <!-- Submit button and cancel link -->
             <button type="submit">Add</button>
-            <a href="../index.html">[Cancel]</a>
+            <a href="index.html">[Cancel]</a>
         </form>
     </div>
 
@@ -274,7 +274,7 @@
 
 <!-- Page Footer -->
 <div class="pagefooter">
-<a href="../PrivacyPolicy.php">Privacy Policy</a>
+<a href="PrivacyPolicy.php">Privacy Policy</a>
 </div>
 </body>
 </html>

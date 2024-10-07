@@ -16,7 +16,7 @@
     frame-src 'self' https://www.google.com;
     upgrade-insecure-requests;">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href='../stylesheet.css' rel='stylesheet'>
+    <link href='stylesheet.css' rel='stylesheet'>
 </head>
 
 <!--------------------------------->
@@ -27,16 +27,16 @@
     <header>
         <div class="wrapper">
             <div class="logo">
-                <a href="../index.html">
+                <a href="index.html">
                     <img src="../BIT608_AS3_Images/graphic.png" alt="Logo" height="100" width="240">
                 </a>
             </div>
 
             <nav id="navbar">
-                <a href="../index.html">Home</a>
-                <a href="../NewCustomer.php">New Customer</a>
-                <a href="../CustomerDashboard.php">Customer Dashboard</a>
-                <a href="../AdminDashboard.php">Admin Dashboard</a>
+                <a href="index.html">Home</a>
+                <a href="NewCustomer.php">New Customer</a>
+                <a href="CustomerDashboard.php">Customer Dashboard</a>
+                <a href="AdminDashboard.php">Admin Dashboard</a>
             </nav>
             <div class="mobile-menu-icon" onclick="toggleMenu()">
                 ☰
@@ -51,7 +51,7 @@
 
     // Check if admin is logged in
     if (!isset($_SESSION['role']) || ($_SESSION['role'] !== 'admin')) {
-        header("Location: ../Login.php");
+        header("Location: Login.php");
         exit();
     }?>
 
@@ -67,8 +67,8 @@
     <h1>Delete a Booking</h1>
     
     <!-- Links to return to the bookings list and homepage -->
-    <a href="../CurrentBookingsList.php" style="font-size: 20px;">[Return to bookings list]</a>
-    <a href="../AdminDashboard.php" style="font-size: 20px;">[Return to Dashboard]</a>
+    <a href="CurrentBookingsList.php" style="font-size: 20px;">[Return to bookings list]</a>
+    <a href="AdminDashboard.php" style="font-size: 20px;">[Return to Dashboard]</a>
     <p><br></p>
 
     <!-- Container for the delete booking form -->
@@ -129,7 +129,7 @@
 
         <!-- Page Footer -->
     <div class="pagefooter">
-        <a href="../PrivacyPolicy.php">Privacy Policy</a>
+        <a href="PrivacyPolicy.php">Privacy Policy</a>
     </div>
 </body>
 </html>

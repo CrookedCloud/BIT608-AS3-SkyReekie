@@ -17,7 +17,7 @@
     frame-src 'self' https://www.google.com;
     upgrade-insecure-requests;">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href='../stylesheet.css' rel='stylesheet'>
+    <link href='stylesheet.css' rel='stylesheet'>
 </head>
 <!------------------->
 <!--Nav Bar-->
@@ -27,16 +27,16 @@
     <header>
         <div class="wrapper">
             <div class="logo">
-                <a href="../index.html">
+                <a href="index.html">
                     <img src="../BIT608_AS3_Images/graphic.png" alt="Logo" height="100" width="240">
                 </a>
             </div>
 
             <nav id="navbar">
-                <a href="../index.html">Home</a>
-                <a href="../NewCustomer.php">New Customer</a>
-                <a href="../CustomerDashboard.php">Customer Dashboard</a>
-                <a href="../AdminDashboard.php">Admin Dashboard</a>
+                <a href="index.html">Home</a>
+                <a href="NewCustomer.php">New Customer</a>
+                <a href="CustomerDashboard.php">Customer Dashboard</a>
+                <a href="AdminDashboard.php">Admin Dashboard</a>
             </nav>
             <div class="mobile-menu-icon" onclick="toggleMenu()">
                 ☰
@@ -51,7 +51,7 @@ session_start();
 
 // Check if user is logged in and is an admin
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
-    header("Location: ../Login.php");
+    header("Location: Login.php");
     exit();
 }
 
@@ -90,8 +90,8 @@ $rowcount = mysqli_num_rows($result);
     <h2>Current Bookings</h2>
 
     <!-- Links to create a booking and return to homepage -->
-    <a href="../CreateBooking.php" style="font-size: 20px;">[Create a Booking]</a>
-    <a href="../AdminDashboard.php" style="font-size: 20px;">[Return to Dashboard]</a>
+    <a href="CreateBooking.php" style="font-size: 20px;">[Create a Booking]</a>
+    <a href="AdminDashboard.php" style="font-size: 20px;">[Return to Dashboard]</a>
     <p><br></p>
 
     <!-- Display the table of bookings -->
@@ -114,10 +114,10 @@ $rowcount = mysqli_num_rows($result);
                 echo '<td>' . htmlspecialchars($row['lastname']) . ', ' . htmlspecialchars($row['firstname']) . '</td>';
                 echo '<td>';
                 // Links for viewing, editing, managing reviews, and deleting bookings
-                echo '<a href="../BookingDetails.php?id=' . htmlspecialchars($row['customerID']) . '">[View]</a> ';
-                echo '<a href="../EditBooking.php?id=' . htmlspecialchars($row['customerID']) . '">[Edit]</a> ';
-                echo '<a href="../ManageReviews.php?id=' . htmlspecialchars($row['customerID']) . '">[Manage Reviews]</a> ';
-                echo '<a href="../DeleteBooking.php?id=' . htmlspecialchars($row['customerID']) . '">[Delete]</a>';
+                echo '<a href="BookingDetails.php?id=' . htmlspecialchars($row['customerID']) . '">[View]</a> ';
+                echo '<a href="EditBooking.php?id=' . htmlspecialchars($row['customerID']) . '">[Edit]</a> ';
+                echo '<a href="ManageReviews.php?id=' . htmlspecialchars($row['customerID']) . '">[Manage Reviews]</a> ';
+                echo '<a href="DeleteBooking.php?id=' . htmlspecialchars($row['customerID']) . '">[Delete]</a>';
                 echo '</td>';
                 echo '</tr>';
             }
@@ -136,7 +136,7 @@ $rowcount = mysqli_num_rows($result);
 
 <!-- Page Footer -->
 <div class="pagefooter">
-<a href="../PrivacyPolicy.php">Privacy Policy</a>
+<a href="PrivacyPolicy.php">Privacy Policy</a>
 </div>
 </body>
 </html>

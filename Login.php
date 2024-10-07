@@ -15,7 +15,7 @@
     frame-src 'self' https://www.google.com;
     upgrade-insecure-requests;">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href='../stylesheet.css' rel='stylesheet'>
+    <link href='stylesheet.css' rel='stylesheet'>
 </head>
 
 <!--------------------------------->
@@ -26,16 +26,16 @@
     <header>
         <div class="wrapper">
             <div class="logo">
-                <a href="../index.html">
+                <a href="index.html">
                     <img src="../BIT608_AS3_Images/graphic.png" alt="Logo" height="100" width="240">
                 </a>
             </div>
 
             <nav id="navbar">
-                <a href="../index.html">Home</a>
-                <a href="../NewCustomer.php">New Customer</a>
-                <a href="../CustomerDashboard.php">Customer Dashboard</a>
-                <a href="../AdminDashboard.php">Admin Dashboard</a>
+                <a href="index.html">Home</a>
+                <a href="NewCustomer.php">New Customer</a>
+                <a href="CustomerDashboard.php">Customer Dashboard</a>
+                <a href="AdminDashboard.php">Admin Dashboard</a>
             </nav>
             <div class="mobile-menu-icon" onclick="toggleMenu()">
                 ☰
@@ -94,7 +94,7 @@ if (isset($_POST['login'])) {
 
 <!-- Page Footer -->
 <div class="pagefooter">
-<a href="../PrivacyPolicy.php">Privacy Policy</a>
+<a href="PrivacyPolicy.php">Privacy Policy</a>
 </div>
 </body>
 </html>
