@@ -23,11 +23,11 @@ h1, h2, h3, h4, h5, h6 {
 a, a:hover
 { outline: none;
 text-decoration: underline;
-color: #0015a09d;}
+color: #0d00587b;}
 
 a:hover
 { text-decoration: none;
-color: rgba(0, 0, 76, 0.803);}
+color: rgba(105, 0, 0, 0.803);}
 
 
 /* Header styling */
